@@ -2,7 +2,7 @@ import { useState } from "react"
 
 function FormData(){
     
-const [formData, setFormData]= useState({
+const [formData, setFormData] = useState({
     name:"",
     email:"",
     feedback:"",
@@ -22,10 +22,11 @@ const handleFormData= (e) => {
 
 return(
     <div>
+        <h1>User Feedback Form</h1>
         <form>
             <label>
                 Name:
-                <input 
+                <input
                 type="text" 
                 name="name"
                 value= {formData.name} 
@@ -51,10 +52,10 @@ return(
                 />
                 <p> {formData.feedback.length}/200 Characters</p>
             </label>
-            <button type="submit" onClick={SubmitEvent} />
+            
         </form>
         <h2>Preview</h2>
-        <p>Name: {formData.name}</p>
+        <p id="preview-name"> Name: {formData.name}</p>
         <p>Email: {formData.email}</p>
         <p>Feedback: {formData.feedback}</p>
     </div>

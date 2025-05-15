@@ -1,14 +1,11 @@
-import './App.css'
 import FormData from './component/FormatData'
+import './App.css'
 
 function App() {
   return (
     <>
-      <div className="card">
-      <h1>User Feedback Form</h1>
-        <body>
+      <div>
         <FormData />
-        </body>
       </div>
       </>
   )

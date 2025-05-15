@@ -1,25 +1,24 @@
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 100px;
-  min-height: 100vh;
-  background-origin: padding-box;
-  background-size: contain;
+
+#root {
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding: auto;
+  background-color: whitesmoke;
+
+
 }
-.card {
+ form{
   font-family:Arial, Helvetica, sans-serif;
-  line-height: 1.25;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
-}
-
-
-.feedback {
+  line-break: 15 ;
+  line-height: 1;
+  font-weight: 1;
   font-size: 3.2em;
-  line-height: 1.1;
 }
-
+p{
+  text-align:end;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
