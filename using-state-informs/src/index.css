@@ -1,10 +1,10 @@
 
 #root {
-  margin-top: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  padding: auto;
+  margin-top: 8;
+  margin-right: 8;
+  margin-bottom: 8;
+  margin-left: 8;
+  padding: 8;
   background-color: whitesmoke;
 
 
@@ -16,8 +16,8 @@
   font-weight: 1;
   font-size: 3.2em;
 }
-p{
-  text-align:end;
+.counter{
+  text-align:left;
 }
 button {
   border-radius: 8px;

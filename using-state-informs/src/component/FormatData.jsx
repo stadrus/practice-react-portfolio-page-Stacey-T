@@ -50,14 +50,14 @@ return(
                 onChange= {handleFormData} rows="5" cols="33" 
                     maxLength={200}
                 />
-                <p> {formData.feedback.length}/200 Characters</p>
+                <p className = "counter"> {formData.feedback.length}/200 Characters</p>
             </label>
             
         </form>
         <h2>Preview</h2>
-        <p id="preview-name"> Name: {formData.name}</p>
-        <p>Email: {formData.email}</p>
-        <p>Feedback: {formData.feedback}</p>
+        <p className="pname"> Name: {formData.name}</p>
+        <p className ="pemail">Email: {formData.email}</p>
+        <p className ="pfeedback">Feedback: {formData.feedback}</p>
     </div>
 );
 
